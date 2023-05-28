@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta&family=Grenze+Gotisch&family=Lemon&family=Lexend+Zetta&family=Mogra&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+@import url(./reset.css);
+
+body {
+    background-color: rgb(228, 240, 248);
+    font-family: 'Mulish', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    /* padding: 100px; */
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #FFFFFF;
+    padding: 64px 104px 252px 104px;
+    position: relative;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    width: 950px;
+    height: 611px;
+    top: 343px;
+    right: -129;
+    bottom: -103px;
+    left: -215px;
+    z-index: -1;
+    background: #982C3208;
+    border-radius: 50px;
+}
+
+.card-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 398px;
+}
+
+.div-pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-pic figure {
+    width: 185px;
+    height: 195px;
+}
+
+.div-pic figure img {
+    width: 151px;
+    height: 151px;
+}
+
+.div-pic figure figcaption {
+    font-size: 16px;
+    color: #1C2852;
+    font-weight: 400;
+}
+
+.div-pic h2 {
+    font-size: 24px;
+    color: #1C2852;
+    font-weight: 800;
+}
+
+.div-pic p {
+    margin-top: 19px;
+    font-size: 16px;
+    color: #1C2852;
+    font-weight: 400;
+    margin-bottom: 51px;
+}
+
+.div-input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.div-input label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1C2852
+}
+
+#username {
+    width: 398px;
+    height: 66px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 24px;
+    border: 1px solid #C2ADC2;
+    margin-bottom: 35px;
+}
+
+.div-checkbox {
+    width: 398px;
+    height: 51px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 41px;
+}
+
+#checkbox {
+    width: 33px;
+    height: 33px;
+    margin-right: 16px;
+    margin-bottom: 18px;
+    box-sizing: border-box;
+    border: 1px solid #C2ADC2;
+    border-radius: 8px;
+}
+
+#checkbox div {
+    width: 349px;
+    height: 46px;
+    font-size: 18px;
+}
+
+.div-checkbox div a {
+    color: #A30062;
+}
+
+.card-down {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 398px;
+    height: 147px;
+    text-decoration-line: underline;
+    color: #A30062;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.card-down button {
+    width: 398px;
+    height: 71px;
+    background: #A30062;
+    border: 1px solid #C2ADC2;
+    border-radius: 8px;
+    color: #C2ADC2;
+    margin-bottom: 64px;
+}
